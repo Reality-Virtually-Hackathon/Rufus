@@ -37,9 +37,11 @@ public class StoryManager : MonoBehaviour {
         if(currenteventidx >= eventList.Count)
         {
             // Do nothing
-        } else
+            Debug.Log(Time.time);
+        }
+        else
         {
-            if (Time.time > eventList[currenteventidx].triggerTime)
+            if (Time.time >= eventList[currenteventidx].triggerTime)
             {
                 //Type t = Type.GetType(eventList[currenteventidx].triggerScriptName); --> Cannot do that unfortunately --> use switch statement instead
 
@@ -47,19 +49,29 @@ public class StoryManager : MonoBehaviour {
                 GameObject go = eventList[currenteventidx].myGameObject;
                 string myString = eventList[currenteventidx].triggerScriptName;
 
+                Debug.Log(go.ToString());
+                Debug.Log(myString);
+                Debug.Log(Time.time);
+
                 switch (myString)
                 {
                     case "ChangeMaterialColor":
                         go.GetComponent<ChangeMaterialColor>().triggered = true;
                         break;
-                    case "Change Skybox":
-                        go.GetComponent<ChangeMaterialColor>().triggered = true;
+                    case "ChangeSkybox":
+                        go.GetComponent<ChangeSkybox>().triggered = true;
                         break;
                     case "FadingIn":
                         go.GetComponent<FadingIn>().triggered = true;
                         break;
                     case "Fade Out":
                         go.GetComponent<FadeOut>().triggered = true;
+                        break;
+                    case "ChangeTintColor":
+                        go.GetComponent<ChangeTintColor>().triggered = true;
+                        break;
+                    case "Scene2Skyboxes":
+                        go.GetComponent<Scene2Skyboxes>().triggered = true;
                         break;
                     default:
                         break;

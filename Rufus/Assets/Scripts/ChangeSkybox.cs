@@ -25,7 +25,7 @@ public class ChangeSkybox : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if(Time.time > start_time)
+        if((Time.time > start_time) && (Time.time < end_time_1))
         {
             if (triggered)
             {
