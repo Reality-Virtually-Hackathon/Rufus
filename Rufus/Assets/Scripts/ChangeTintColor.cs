@@ -29,7 +29,7 @@ public class ChangeTintColor : MonoBehaviour {
     void Update () {
         if (triggered)
         {
-            if(Time.time > fadeinstarttime && Time.time < fadeinstarttime + fadeinduration)
+            if(Time.timeSinceLevelLoad > fadeinstarttime && Time.timeSinceLevelLoad < fadeinstarttime + fadeinduration)
             {
                 value = Mathf.Lerp(0f, 1f, t);
                 t += Time.deltaTime / fadeinduration;
@@ -37,7 +37,7 @@ public class ChangeTintColor : MonoBehaviour {
                 //myRenderer.material.shader = Shader.Find("Standard");
                 myRenderer.material.SetColor("_TintColor", myColor);
                 //gameObject.GetComponent<Material>().SetColor("_Color", myColor);
-            } else if(Time.time > fadeoutstarttime && Time.time < fadeoutstarttime + fadeoutduration)
+            } else if(Time.timeSinceLevelLoad > fadeoutstarttime && Time.timeSinceLevelLoad < fadeoutstarttime + fadeoutduration)
             {
                 value = Mathf.Lerp(0f, 1f, t);
                 t += Time.deltaTime / fadeoutduration;

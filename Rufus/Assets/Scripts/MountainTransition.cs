@@ -16,10 +16,10 @@ public class MountainTransition : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-        if(Time.time < starttime)
+        if(Time.timeSinceLevelLoad < starttime)
         {
             this.GetComponent<MeshRenderer>().enabled = false;
-        } else if ((Time.time >= starttime) && (Time.time < endtime))
+        } else if ((Time.timeSinceLevelLoad >= starttime) && (Time.timeSinceLevelLoad < endtime))
         {
             this.GetComponent<MeshRenderer>().enabled = true;
         }

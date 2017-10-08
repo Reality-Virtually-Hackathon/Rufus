@@ -37,11 +37,11 @@ public class StoryManager : MonoBehaviour {
         if(currenteventidx >= eventList.Count)
         {
             // Do nothing
-            Debug.Log(Time.time);
+            Debug.Log(Time.timeSinceLevelLoad);
         }
         else
         {
-            if (Time.time >= eventList[currenteventidx].triggerTime)
+            if (Time.timeSinceLevelLoad >= eventList[currenteventidx].triggerTime)
             {
                 //Type t = Type.GetType(eventList[currenteventidx].triggerScriptName); --> Cannot do that unfortunately --> use switch statement instead
 
@@ -51,7 +51,7 @@ public class StoryManager : MonoBehaviour {
 
                 Debug.Log(go.ToString());
                 Debug.Log(myString);
-                Debug.Log(Time.time);
+                Debug.Log(Time.timeSinceLevelLoad);
 
                 switch (myString)
                 {

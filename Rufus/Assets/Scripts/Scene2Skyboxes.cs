@@ -33,13 +33,13 @@ public class Scene2Skyboxes : MonoBehaviour {
 		
         if (triggered)
         {
-            if ((Time.time > start_time) && (start_time+up_slope_time>Time.time))
+            if ((Time.timeSinceLevelLoad > start_time) && (start_time+up_slope_time>Time.timeSinceLevelLoad))
             {
                 value = Mathf.Lerp(0f, 1f, t);
                 t += Time.deltaTime/up_slope_time;
                 myColor = upGradient.Evaluate(value);
                 this.GetComponent<Skybox>().material.SetColor("_SkyColor2", myColor); // only changing the Horizon color
-            } else if (Time.time > start_time_2){
+            } else if (Time.timeSinceLevelLoad > start_time_2){
                 value = Mathf.Lerp(0f, 1f, t);
                 t += Time.deltaTime / down_slope_time;
                 myColor = downGradient.Evaluate(value);
