@@ -13,4 +13,4 @@
   - VR Splash Package Unity (https://web.archive.org/web/20160316175619/http://talesfromtherift.com/vr-splash/)
       Modified for our purposes
       
-      All other code was written by Mike Hao Jiang (mhjiang)
+      All other code was writtenfrom scratch by Mike Hao Jiang (mhjiang)
