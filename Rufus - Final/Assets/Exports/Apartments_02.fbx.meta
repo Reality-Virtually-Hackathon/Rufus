@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 505fe789a589b0549a40e8b28ba49116
+timeCreated: 1507424675
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bed_02
+    100004: Bed_1
+    100006: BlueCube_01
+    100008: BlueCube_02
+    100010: BlueCube_03
+    100012: BlueCube_04
+    100014: BlueCube_04 1
+    100016: BlueHouse
+    100018: BlueHouse1
+    100020: Bookcase_01
+    100022: Bookcase_02
+    100024: Clock
+    100026: CoatRack
+    100028: Frame_01
+    100030: Frame_03
+    100032: Frame_04
+    100034: Frame_05
+    100036: Frame_06
+    100038: Frame_07
+    100040: Frame_08
+    100042: Frames_02
+    100044: NightStand_01
+    100046: Nightstand_01
+    100048: NightStand_02
+    100050: OrangeCube_01
+    100052: OrangeCube_02
+    100054: OrangeCube_03
+    100056: OrangeCube_04
+    100058: OrangeCube_05
+    100060: OrangeCube_06
+    100062: Plant_01
+    100064: RedHouse
+    100066: RedHouse 1
+    100068: Shelves_01
+    100070: Table_01
+    100072: Table_02
+    100074: Blue_Character
+    100076: Blue_Character_MeshPart0
+    100078: Blue_Character_MeshPart1
+    100080: Red_Character
+    100082: Red_Character_MeshPart0
+    100084: Red_Character_MeshPart1
+    100086: BluePerson
+    100088: BluePerson_MeshPart0
+    100090: BluePerson_MeshPart1
+    100092: RedPerson
+    100094: RedPerson_MeshPart0
+    100096: RedPerson_MeshPart1
+    400000: //RootNode
+    400002: Bed_02
+    400004: Bed_1
+    400006: BlueCube_01
+    400008: BlueCube_02
+    400010: BlueCube_03
+    400012: BlueCube_04
+    400014: BlueCube_04 1
+    400016: BlueHouse
+    400018: BlueHouse1
+    400020: Bookcase_01
+    400022: Bookcase_02
+    400024: Clock
+    400026: CoatRack
+    400028: Frame_01
+    400030: Frame_03
+    400032: Frame_04
+    400034: Frame_05
+    400036: Frame_06
+    400038: Frame_07
+    400040: Frame_08
+    400042: Frames_02
+    400044: NightStand_01
+    400046: Nightstand_01
+    400048: NightStand_02
+    400050: OrangeCube_01
+    400052: OrangeCube_02
+    400054: OrangeCube_03
+    400056: OrangeCube_04
+    400058: OrangeCube_05
+    400060: OrangeCube_06
+    400062: Plant_01
+    400064: RedHouse
+    400066: RedHouse 1
+    400068: Shelves_01
+    400070: Table_01
+    400072: Table_02
+    400074: Blue_Character
+    400076: Blue_Character_MeshPart0
+    400078: Blue_Character_MeshPart1
+    400080: Red_Character
+    400082: Red_Character_MeshPart0
+    400084: Red_Character_MeshPart1
+    400086: BluePerson
+    400088: BluePerson_MeshPart0
+    400090: BluePerson_MeshPart1
+    400092: RedPerson
+    400094: RedPerson_MeshPart0
+    400096: RedPerson_MeshPart1
+    2300000: Bed_02
+    2300002: Bed_1
+    2300004: BlueCube_01
+    2300006: BlueCube_02
+    2300008: BlueCube_03
+    2300010: BlueCube_04
+    2300012: BlueCube_04 1
+    2300014: BlueHouse
+    2300016: Bookcase_01
+    2300018: Bookcase_02
+    2300020: Clock
+    2300022: CoatRack
+    2300024: Frame_01
+    2300026: Frame_03
+    2300028: Frame_04
+    2300030: Frame_05
+    2300032: Frame_06
+    2300034: Frame_07
+    2300036: Frame_08
+    2300038: Frames_02
+    2300040: NightStand_01
+    2300042: Nightstand_01
+    2300044: NightStand_02
+    2300046: OrangeCube_01
+    2300048: OrangeCube_02
+    2300050: OrangeCube_03
+    2300052: OrangeCube_04
+    2300054: OrangeCube_05
+    2300056: OrangeCube_06
+    2300058: Plant_01
+    2300060: RedHouse 1
+    2300062: Shelves_01
+    2300064: Table_01
+    2300066: Table_02
+    2300068: Blue_Character_MeshPart0
+    2300070: Blue_Character_MeshPart1
+    2300072: Red_Character_MeshPart0
+    2300074: Red_Character_MeshPart1
+    2300076: BluePerson_MeshPart0
+    2300078: BluePerson_MeshPart1
+    2300080: RedPerson_MeshPart0
+    2300082: RedPerson_MeshPart1
+    3300000: Bed_02
+    3300002: Bed_1
+    3300004: BlueCube_01
+    3300006: BlueCube_02
+    3300008: BlueCube_03
+    3300010: BlueCube_04
+    3300012: BlueCube_04 1
+    3300014: BlueHouse
+    3300016: Bookcase_01
+    3300018: Bookcase_02
+    3300020: Clock
+    3300022: CoatRack
+    3300024: Frame_01
+    3300026: Frame_03
+    3300028: Frame_04
+    3300030: Frame_05
+    3300032: Frame_06
+    3300034: Frame_07
+    3300036: Frame_08
+    3300038: Frames_02
+    3300040: NightStand_01
+    3300042: Nightstand_01
+    3300044: NightStand_02
+    3300046: OrangeCube_01
+    3300048: OrangeCube_02
+    3300050: OrangeCube_03
+    3300052: OrangeCube_04
+    3300054: OrangeCube_05
+    3300056: OrangeCube_06
+    3300058: Plant_01
+    3300060: RedHouse 1
+    3300062: Shelves_01
+    3300064: Table_01
+    3300066: Table_02
+    3300068: Blue_Character_MeshPart0
+    3300070: Blue_Character_MeshPart1
+    3300072: Red_Character_MeshPart0
+    3300074: Red_Character_MeshPart1
+    3300076: BluePerson_MeshPart0
+    3300078: BluePerson_MeshPart1
+    3300080: RedPerson_MeshPart0
+    3300082: RedPerson_MeshPart1
+    4300000: BlueCube_01
+    4300002: BlueCube_02
+    4300004: BlueCube_04
+    4300006: OrangeCube_01
+    4300008: Shelves_01
+    4300010: Bookcase_01
+    4300012: Frames_02
+    4300014: Plant_01
+    4300016: NightStand_01
+    4300018: NightStand_02
+    4300020: BlueCube_03
+    4300022: CoatRack
+    4300024: RedHouse
+    4300026: Bed_1
+    4300028: Frame_01
+    4300030: Nightstand_01
+    4300032: Table_02
+    4300034: Bookcase_02
+    4300036: Bed_02
+    4300038: BlueCube_04
+    4300040: OrangeCube_06
+    4300042: OrangeCube_05
+    4300044: OrangeCube_04
+    4300046: OrangeCube_03
+    4300048: OrangeCube_02
+    4300050: Frame_08
+    4300052: Clock
+    4300054: Frame_07
+    4300056: Frame_06
+    4300058: Frame_05
+    4300060: Frame_04
+    4300062: Frame_03
+    4300064: BlueHouse
+    4300066: Table_01
+    4300068: Red_Character_MeshPart0
+    4300070: Red_Character_MeshPart1
+    4300072: Blue_Character_MeshPart0
+    4300074: Blue_Character_MeshPart1
+    4300076: RedPerson_MeshPart0
+    4300078: RedPerson_MeshPart1
+    4300080: BluePerson_MeshPart0
+    4300082: BluePerson_MeshPart1
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
